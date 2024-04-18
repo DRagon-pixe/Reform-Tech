@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(fontes/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Staatliches";
+    src: url(fontes/Staatliches-Regular.ttf);
+}
+
+:root {
+    --branco-Reform: #f5f5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    max-width: 1620px;
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.banner {
+    height: 100vh;
+    background-position: 165% 40%;
+}
+
+header {
+    height: 120px;
+}
+
+header div.container-grid {
+    /* Porcentagenm - Unidade relativa ao elemento pai */
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header svg.Logo {
+    height: 120px;
+    width: 288px;
+}
+
+header button {
+    display: none;
+}
+
