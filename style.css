@@ -16,6 +16,7 @@
 :root {
     --branco-Reform: #f5f5f5;
     --laranja-Reform: #EB6534;
+    --azul-Reform: #9EB4C1;
 }
 
 * {
@@ -29,7 +30,7 @@ html {
 }
 
 .container-grid {
-    max-width: 1920px;
+    max-width: 1400px;
     width: 80vw;
     margin: 0px auto;
 }
@@ -86,7 +87,7 @@ header button {
 .menu a {
     color: #000;
     font-family: "Nunito";
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
     transition: text-decoration 500ms ease;
@@ -110,6 +111,17 @@ header button {
 
 #sobre h2 {
     font-family: "Staatliches";
+    margin-bottom: 60px;
+}
+
+.text1 {
+    background-color: #EEB07E;
+    border-radius: 10px;
+}
+
+.text2 {
+    background-color: #EEB07E;
+    border-radius: 10px;
 }
 
 #sobre p {
@@ -124,31 +136,98 @@ header button {
     font-family: "Staatliches";
 }
 
-#gamificaccao p {
+
+#gamificacao p {
     font-family: "Inter";
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+#gamificacao button {
+    display: none;
 }
 
 .conteudo {
-    height: 2850px;
     background-color: #5e5d5d;
 }
 
-.cases {
-    width: 1080px;
+#cases h2 {
+    font-size: 22px;
+    font-family: "Nunito";
+    display: flex;
+    justify-content: center;
+    color: var(--branco-Reform);
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.case h3 {
+    font-size: 18px;
+    font-family: "Staaliches";
+    display: flex;
+    justify-content: center;
+    color: var(--branco-Reform);
+    margin-bottom: 15px;
+
+}
+
+.container-cards {
     height: 680px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.problemas-solucoes {
-    width: 1080px;
-    height: 415px;
+.card {
+    height: 480px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+    background-color: var(--azul-Reform);
 }
 
-.comentarios {
-    width: 1080px;
-    height: 280px;
+.card p {
+    
+    color: #01263D;
+    font-family: "Inter";
+    font-size: 16px;
+    padding: 15px 25px 0px  25px;
 }
 
-.contate-nos {
-    width: 1080px;
-    height: 690px;
+.card button {
+    width: 90%;
+    height: 40px;
+    background-color: var(--laranja-Reform);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Nunito";
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #ad4929;
+}
+
+#contato {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato h2 {
+    margin-bottom: 70px;
+}
+
+#contato form {
+    width: 50%;
+    margin: 0 auto;
 }
