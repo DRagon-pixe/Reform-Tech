@@ -17,6 +17,8 @@
     --branco-Reform: #f5f5f5;
     --laranja-Reform: #EB6534;
     --azul-Reform: #9EB4C1;
+    --loronja-Reform: #EEB07E;
+    --preto-Reform: #5e5d5d;
 }
 
 * {
@@ -37,6 +39,10 @@ html {
 
 .banner {
     height: 100vh;
+    background-image: url(img/Group\ 38.png);
+    background-repeat: no-repeat;
+    width: 100%;
+
 }
 
 header {
@@ -98,8 +104,13 @@ header button {
     color: #EB6534;
 }
 
-.conteudo-banner {
-    background-image: url(img/Group\ 38.png);
+.texto-sobre{
+    display: flex;
+}
+
+.texto-sobre p {
+    background-color: var(--loronja-Reform);
+    border-radius: 10px;
 }
 
 #sobre {
@@ -112,22 +123,15 @@ header button {
     font-family: "Staatliches";
     margin-bottom: 60px;
     margin-top: 60px;
-}
+    font-size: 34px;
 
-.text1 {
-    background-color: #EEB07E;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.text2 {
-    background-color: #EEB07E;
-    border-radius: 10px;
-    margin-top: 20px;
 }
 
 #sobre p {
     font-family: "Inter";
+    font-size: 20px;
+    text-align: center;
+
 }
 
 #gamificacao {
@@ -135,59 +139,64 @@ header button {
 }
 
 #gamificacao h2 {
+    margin-top: 30px;
     font-family: "Staatliches";
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
-
 }
-
 
 #gamificacao p {
     font-family: "Inter";
     background-color: #f5f5f5;
     border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 #gamificacao button {
     background-color: var(--branco-Reform);
     border: none;
+    font-size: 22px;
+    color: var(--preto-Reform);
+    border-radius: 10px;
+
 }
 
 .conteudo {
     background-color: #5e5d5d;
     text-align: center;
-    
 }
 
 #cases h2 {
-    font-size: 22px;
+    font-size: 34px;
     font-family: "Nunito";
     display: flex;
     justify-content: center;
     color: var(--branco-Reform);
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .case h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: "Staaliches";
     display: flex;
     justify-content: center;
     color: var(--branco-Reform);
-    margin-bottom: 15px;
+    margin-bottom: 22px;
 
 }
 
 .container-cards {
-    height: 560px;
+    height: 780px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .card {
-    height: 480px;
+    height: 690px;
     width: 340px;
     display: flex;
     flex-direction: column;
@@ -204,7 +213,7 @@ header button {
     
     color: #01263D;
     font-family: "Inter";
-    font-size: 16px;
+    font-size: 20px;
     padding: 15px 25px 0px  25px;
 }
 
@@ -219,6 +228,7 @@ header button {
     font-size: 20px;
     font-weight: 400;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .card button:hover {
@@ -227,17 +237,18 @@ header button {
 
 #contato {
     text-align: center;
-    padding-bottom: 50px;
 }
 
 #contato h2 {
     padding-bottom: 30px;
     font-family: "Nunito";
     color: var(--branco-Reform);
+    font-size: 30px;
 }
 
 #contato form {
-    width: 50%;
+    height: 80%;
+    width: 68%;
     margin: 0 auto;
     background-color: var(--branco-Reform);
     padding: 60px 0;
@@ -254,7 +265,7 @@ header button {
 }
 
 .campo {
-    width: 60%;
+    width: 70%;
     margin-bottom: 50px;
     text-align: left;
     display: flex;
@@ -262,26 +273,12 @@ header button {
     flex-direction: column;
 }
 
-.campo input {
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    outline: auto;
-    text-indent: 10px;
-    font-size: 17px;
-}
-
-.campo #telefone {
-    height: 40px;
-    border: none;
-    border-radius: 4px;
-    outline: auto;
-    text-indent: 10px;
-    font-size: 17px;
+.campo label {
+    margin: 20px;
 }
 
 #contato button {
-    width: 60%;
+    width: 70%;
     height: 50px;
     border: none;
     background-color: #EB6534;
@@ -290,6 +287,8 @@ header button {
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
     transition: text-decoration 500ms ease;
+    font-family: "Nunito";
+    font-size: 20px;
 }
 
 
@@ -301,6 +300,15 @@ header button {
 
 footer {
     background-color: #5e5d5d;
+    display: flex;
+}
+
+footer .Redes {
+    display: flex;
+}
+
+footer .logo {
+    
 }
 
 footer .logo img {
@@ -319,3 +327,12 @@ footer .Redes button {
     align-items: center;
 }
 
+footer .rede1 {
+    height: 300px;
+    width: 390px;
+}
+
+footer .rede2 {
+    height: 300px;
+    width: 390px;
+}
