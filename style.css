@@ -964,9 +964,214 @@ footer .linkdin {
 }
 
 @media screen and (max-width: 400px) {
+    .banner {
+        height: 1000px;
+    }
 
+    nav.menu {
+        height: 200px;
+        width: 175px;
+        padding: 0px 30px;
+    }
+
+    nav.menu a {
+        font-size: 13px;
+        padding: 2px 5px 2px 5px;
+    }
+
+    #sobre {
+        height: 460px;
+    }
+    
+    .Logo-e-opções {
+        padding-right: 0px;
+    }
+
+    .Logo-e-opções .Logo {
+        height: 52.72px;
+        width: 244.25px;
+    }
+
+    .Logo-e-opções .Linha {
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+
+    #gamificacao p {
+        font-size: 12px;
+    }
+
+    #gamificacao button {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    #cases .container-cards {
+        height: 385px;
+    }
+
+    #cases .card {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 10px;
+    }
+
+    #cases .card button {
+        font-size: 14px;
+        height: 25px;
+    }
+
+    #cases h3 {
+        margin-bottom: 11px;
+    }
+
+    #cases .case {
+        height: 372px;
+    }
+
+    #cases .case p {
+        font-size: 12px;
+        padding: 7.5px 12.5px 0px 12.5px;
+    }
+
+    #contato form {
+        padding: 30px 0;
+    }
+
+    #contato form label {
+        margin-bottom: 12.5px;
+        font-size: 20px;
+    }
+
+    .campo input {
+        font-size: 16px;
+        height: 30px;
+        border-bottom-width: 3px;
+    }
+
+    #contato button {
+        width: 60%;
+        height: 35px;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    footer .container-grid {
+        width: 300px;
+    }
+
+    footer .logo {
+        height: 250px
+    }
+
+    footer .Redes {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    header {
+        height: 80px;
+    }
 
+    .Logo-e-opções {
+        height: 80px;
+    }
+
+    .Logo-e-opções .Logo {
+        height: 44.02px;
+        width: 203.97px;
+    }
+
+    .Hamburger {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linha {
+        height: 60px;
+        padding: 0px;
+    }
+
+    nav.menu {
+        top: 75px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .banner {
+        height: 900px;
+    }
+    
+    #sobre {
+        height: 427px;
+    }
+
+    #sobre h2 {
+        font-size: 18px;
+    }
+
+    #sobre p {
+        font-size: 10px;
+    }
+
+    #gamificacao h2 {
+        font-size: 18px;
+    }
+
+    #gamificacao p {
+        font-size: 10px;
+    }
+
+    #gamificacao button {
+        font-size: 11px;
+        width: 90%;
+    }
+
+    #cases h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    #cases .container-cards {
+        height: 350px;
+    }
+
+    #cases .case {
+        height: 332px;
+    }
+
+    #cases .case p {
+        font-size: 10px;
+        padding: 7.5px 12.5px 0px 12.5px;
+    }
+
+    #cases .card {
+        width: 200px;
+    }
+
+    #contato h2 {
+        font-size: 20px;
+    }
+
+    .campo {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    footer .container-grid {
+        width: 250px;
+    }
+
+    footer .logo {
+        padding-right: 20px;
+        height: 200px;
+    }
+
+    footer .Redes {
+        height: 200px;
+    }
 }
