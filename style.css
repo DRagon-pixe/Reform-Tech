@@ -410,6 +410,14 @@ footer .linkdin {
     display: flex;
 }
 
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
+}
+
 @media screen and (max-width: 1390px) {
     header {
         height: 100px;
@@ -603,6 +611,8 @@ footer .linkdin {
     #gamificacao h2 {
         margin-top: 20px;
     }
+
+    
 }
 
 @media screen and (max-width: 940px) {
