@@ -52,7 +52,7 @@ const solicitarOrcamento = (event) => {
     // Enviar requisicao para a api
     // 127.0.0.1 -> localhost
     // Metodo HTTP POST - Creat
-    fetch("https://127.0.0.1:3000/solicitacoes", {
+    fetch("http://127.0.0.1:3000/solicitacoes", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
